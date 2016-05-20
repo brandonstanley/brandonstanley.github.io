@@ -99,7 +99,7 @@ a {
   padding: 100px 0;
   text-align: left;
   color: white;
-  background: url(../img/me.jpg) no-repeat bottom center scroll;
+  background: url(../img/me.JPG) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -160,7 +160,7 @@ footer {
   -width: 100%;
   padding: 100px 0;
   color: #fcfcfc;
-  background: url(../img/me2.jpg) no-repeat center center scroll;
+  background: url(../img/me2.JPG) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
