@@ -1,5 +1,4 @@
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^brandonstanley.net [NC]
 RewriteRule ^(.*)$ http://www.brandonstanley.net/$1 [L,R=301]
-Options -Indexes
-
+Options All -Indexes
