@@ -35,7 +35,7 @@ a {
   color: #fcfcfc;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out; }
+  transition: all 1s ease-in-out; }
   a:hover, a:focus {
     text-decoration: none;
     color: #c9c9c9; }
@@ -45,7 +45,7 @@ a {
 
 .navbar-custom {
   margin-bottom: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  -border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   font-family: PragmaticaExtraLight, sans-serif;
   background-color: black; }
@@ -90,7 +90,7 @@ a {
       .navbar-custom.top-nav-collapse {
         padding: 0;
         background: black;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.3); } }
+        -border-bottom: 1px solid rgba(255, 255, 255, 0.3); } }
 
 .intro {
   display: table;
@@ -104,6 +104,7 @@ a {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  background-position:  right top;
   -o-background-size: cover; }
   .intro .intro-body {
     display: table-cell;
@@ -150,18 +151,20 @@ footer {
   -width: 100%;
   padding: 100px 25px 100px 25px;
   color: #fcfcfc;
+  -background: url(../img/me2not.JPG) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -background-size: cover;
+  background-size: cover;
   -o-background-size: cover; }
 
 .contact-section {
-  -width: 100%;
-  padding: 100px 25px 100px 25px;
+  width: 100%;
+  padding: 125px 25px 125px 25px;
   color: #fcfcfc;
   background: url(../img/me2.JPG) no-repeat center center scroll;
   background-color: black;
+  -background-position: top; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
