@@ -104,7 +104,7 @@ a {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  background-position:  right top;
+  background-position:  60% top;
   -o-background-size: cover; }
   .intro .intro-body {
     display: table-cell;
